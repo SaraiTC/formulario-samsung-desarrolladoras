@@ -2,5 +2,5 @@
 
 Ejercicio:
 
-[!Ejercicio_final](https://i.ibb.co/HpD8xry/Imagen-Actividad-Final1.jpg)
+![Ejercicio_final](https://i.ibb.co/HpD8xry/Imagen-Actividad-Final1.jpg)
 
