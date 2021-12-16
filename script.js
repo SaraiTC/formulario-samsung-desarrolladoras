@@ -18,3 +18,7 @@
             swal("Le informamos que su cuenta bancaria es: ES " + "-" + iban + "-" + entity + "-" + sucursal + "-" + dc + "-" + cuenta);
             console.log("country");
         }
+
+    function mostrarDia () {
+        
+    }

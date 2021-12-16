@@ -1,7 +1,74 @@
-#alert-box {
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Estilo titular */
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  color:#0205F0;
+  text-shadow: 1px 1px 2px #FFFF01;
+  font-size: 40px;
+}
+
+/* Estilo contenedor principal  */
+
+.container {
+  margin: 30px;
+  padding: 10px;
+}
+
+/* Estilo de los fieldsets y sus elementos hijos */
+
+fieldset {
+  padding:20px;
+  margin-bottom: 10px;
+  background-color: #01FFFF;
+  border:none;
+  border-radius: 5px;
+}
+
+fieldset input {
+  margin:2px;
+  background-color:#FFFF01;
+  border: 1px solid rgba(128, 128, 128, 0.582);
+  border-radius: 3px;
+}
+
+.contratation-type input {
+margin-bottom: 15px;
+}
+
+legend {
+  background-color: #EF0D19;
+  padding: 4px;
+  color: white;
+  border-radius: 3px;
+}
+
+#valoracion {
+  margin-top: 10px;
+}
+
+#date {
+  background-color: white;
+  margin-top: 15px;
+}
+
+/* Estilo de los botones */
+
+button {
+  padding: 3px;
+  margin: 3px;
+}
+
+.show-btn {
+  background-color: #FEBFCB;
+  border:none;
+  padding:5px;
+  border-radius: 5px;
+  width: 100px;
+}
