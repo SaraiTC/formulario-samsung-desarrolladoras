@@ -47,19 +47,22 @@
            </fieldset>
            <fieldset>
                <legend align="left">Datos Bancarios</legend>
-               <label for="country">País:</label>
-               <input type="text" name="cuenta" id="country" value="ES" readonly>(sólo válido ES) <br>
-               <label for="iban">Control IBAN:</label>
-               <input type="number" name="cuenta" id="iban" placeholder="XX" maxlength="2">(dos dígitos) <br>
-               <label for="entity">Entidad:</label>
-               <input type="number" name="cuenta" id="entity" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
-               <label for="sucursal">Sucursal:</label>
-               <input type="number" name="cuenta" id="sucursal" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
-               <label for="dc">DC:</label>
-               <input type="number" name="cuenta" id="dc" placeholder="XX" maxlength="2">(dos dígitos) <br>
-               <label for="account">Cuenta:</label>
-               <input type="number" name="cuenta" id="account" placeholder="XXXXXXXXXX" maxlength="10">(diez dígitos)
-
+               <div class="labels">
+                    <label for="country">País:</label>
+                    <label for="iban">Control IBAN:</label>
+                    <label for="entity">Entidad:</label>
+                    <label for="sucursal">Sucursal:</label>
+                    <label for="dc">DC:</label>
+                    <label for="account">Cuenta:</label>
+               </div>
+               <div class="inputs">
+                    <input type="text" name="cuenta" id="country" value="ES" readonly>(sólo válido ES) <br>
+                    <input type="number" name="cuenta" id="iban" placeholder="XX" maxlength="2">(dos dígitos) <br>
+                    <input type="number" name="cuenta" id="entity" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
+                    <input type="number" name="cuenta" id="sucursal" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
+                    <input type="number" name="cuenta" id="dc" placeholder="XX" maxlength="2">(dos dígitos) <br>
+                    <input type="number" name="cuenta" id="account" placeholder="XXXXXXXXXX" maxlength="10">(diez dígitos)
+            </div>
            </fieldset>
            <fieldset>
                <legend align="left">Datos estadísticos - ¿Cómo nos conoció?</legend>
