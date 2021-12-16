@@ -2,8 +2,6 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Alta Telefónica</title>
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="script.js"></script>
@@ -68,12 +66,13 @@
                <input type="checkbox" name="conocimiento" id="internet"> <label for="internet"> A través de la Internet</label> <br>
                <input type="checkbox" name="conocimiento" id="otros"> <label for="otros">Otros</label> <br>
                <input type="range" name="valoracion" id="valoracion" min="1" max="5"> <label for="valoracion">Valoración[1-5]</label> <br>
+               <label for="date">Fecha de la encuesta:</label>
                <input type="date" name="fecha" id="date" value="2019-01-01">
            </fieldset>
            <button type="submit">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
            <button type="button" class="show-btn" onclick="alert('Tu valoración es de ' + document.getElementById('valoracion').value)">Mostrar Valoración</button>
            <button type="button" class="show-btn" onclick="mostrarCuenta();">Mostrar Cuenta</button>
-           <button type="button" class="show-btn" onclick="alert()">Mostrar Día Semana</button>
+           <button type="button" class="show-btn" onclick="mostrarDia();">Mostrar Día Semana</button>
        </form>
 
    </div>
