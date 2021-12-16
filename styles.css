@@ -43,6 +43,10 @@ fieldset input {
 margin-bottom: 15px;
 }
 
+.motivo {
+  margin-bottom: 25px;
+}
+
 legend {
   background-color: #EF0D19;
   padding: 4px;
@@ -63,7 +67,7 @@ legend {
 
 button {
   padding: 3px;
-  margin: 3px;
+  margin: 2px;
 }
 
 .show-btn {

@@ -1,3 +1,5 @@
+// Funciones de los botones de Mostrar contenidos
+
 function mostrarCuenta(){
    var iban = document.getElementById("iban").value;
    var entity = document.getElementById("entity").value;
