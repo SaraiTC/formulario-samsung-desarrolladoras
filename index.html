@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Alta Telefónica</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Importo un CDN para crear alertas de JS personalizadas -->
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
 </head>
 <body>
    <h1 class="title">Formulario Información Alta Telefónica</h1> 
@@ -72,11 +72,11 @@
            </fieldset>
            <button type="submit">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
            <button type="button" class="show-btn" onclick="alert('Tu valoración es de ' + document.getElementById('valoracion').value)">Mostrar Valoración</button>
-           <button type="button" class="show-btn" onclick='alert("Le informamos que su cuenta bancaria es: ES " + "-" + document.getElementById("iban").value + "-" + document.getElementById("entity").value + "-" + document.getElementById("sucursal").value + "-" + document.getElementById("dc").value + "-" + document.getElementById("account").value)'>Mostrar Cuenta</button>
-           <button type="button" class="show-btn" onclick="mostrarDia()">Mostrar Día Semana</button>
+           <button type="button" class="show-btn" onclick="mostrarCuenta();">Mostrar Cuenta</button>
+           <button type="button" class="show-btn" onclick="alert()">Mostrar Día Semana</button>
        </form>
 
    </div>
-   <script src="script.js"></script>
+
 </body>
 </html>
