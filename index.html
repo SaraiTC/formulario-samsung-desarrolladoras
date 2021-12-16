@@ -23,8 +23,8 @@
                <input type="text" name="direccion" id="address" maxlength="60"><br>
                <label for="postcode">Código Postal:</label>
                <input type="text" name="codigo-postal" id="postcode"><br>
-               <label for="location">Localidad:</label>
-               <input type="text" name="localidad" id="location">
+               <label for="location">Provincia:</label>
+               <input type="text" name="provincia" id="location">
            </fieldset>
            <fieldset>
                <legend align="left">Tipo de Contratación</legend>
@@ -71,8 +71,8 @@
                <input type="date" name="fecha" id="date" value="2019-01-01">
            </fieldset>
            <button type="submit">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
-           <button type="button" class="show-btn" onclick="mostrarValoracion()">Mostrar Valoración</button>
-           <button type="button" class="show-btn" onclick="mostrarCuenta()">Mostrar Cuenta</button>
+           <button type="button" class="show-btn" onclick="alert('Tu valoración es de ' + document.getElementById('valoracion').value)">Mostrar Valoración</button>
+           <button type="button" class="show-btn" onclick='alert("Le informamos que su cuenta bancaria es: ES " + "-" + document.getElementById("iban").value + "-" + document.getElementById("entity").value + "-" + document.getElementById("sucursal").value + "-" + document.getElementById("dc").value + "-" + document.getElementById("account").value)'>Mostrar Cuenta</button>
            <button type="button" class="show-btn" onclick="mostrarDia()">Mostrar Día Semana</button>
        </form>
 
