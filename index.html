@@ -13,7 +13,7 @@
    <h1 class="title">Formulario Información Alta Telefónica</h1> 
    <div class="container">
        <form action="">
-           <fieldset class="personal-data">
+           <fieldset>
                <legend align="left">Datos personales</legend>
                <label for="name">Nombre:</label>
                <input type="text" name="nombre" id="name" maxlength="30"><br>
@@ -26,7 +26,7 @@
                <label for="location">Localidad:</label>
                <input type="text" name="localidad" id="location">
            </fieldset>
-           <fieldset class="contratation-type">
+           <fieldset>
                <legend align="left">Tipo de Contratación</legend>
                <input type="radio" name="contratacion" id="nueva-contratacion" checked> <label for="nueva-contratacion">Nueva Contratación</label> 
                <input type="radio" name="contratacion" id="portabilidad"> <label for="portabilidad">Portabilidad</label> 
@@ -45,39 +45,35 @@
                    <option value="yoigo-p">Yoigo</option>
                </select>
            </fieldset>
-           <fieldset class="bank-data">
+           <fieldset>
                <legend align="left">Datos Bancarios</legend>
-               <div class="labels">
-                    <label for="country">País:</label>
-                    <label for="iban">Control IBAN:</label>
-                    <label for="entity">Entidad:</label>
-                    <label for="sucursal">Sucursal:</label>
-                    <label for="dc">DC:</label>
-                    <label for="account">Cuenta:</label>
-               </div>
-               <div class="inputs">
-                    <input type="text" name="cuenta" id="country" value="ES" readonly>(sólo válido ES) <br>
-                    <input type="number" name="cuenta" id="iban" placeholder="XX" maxlength="2">(dos dígitos) <br>
-                    <input type="number" name="cuenta" id="entity" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
-                    <input type="number" name="cuenta" id="sucursal" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
-                    <input type="number" name="cuenta" id="dc" placeholder="XX" maxlength="2">(dos dígitos) <br>
-                    <input type="number" name="cuenta" id="account" placeholder="XXXXXXXXXX" maxlength="10">(diez dígitos)
-            </div>
+               <label for="country">País:</label>
+               <input type="text" name="cuenta" id="country" value="ES" readonly>(sólo válido ES) <br>
+               <label for="iban">Control IBAN:</label>
+               <input type="number" name="cuenta" id="iban" placeholder="XX" maxlength="2">(dos dígitos) <br>
+               <label for="entity">Entidad:</label>
+               <input type="number" name="cuenta" id="entity" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
+               <label for="sucursal">Sucursal:</label>
+               <input type="number" name="cuenta" id="sucursal" placeholder="XXXX" maxlength="4">(cuatro dígitos) <br>
+               <label for="dc">DC:</label>
+               <input type="number" name="cuenta" id="dc" placeholder="XX" maxlength="2">(dos dígitos) <br>
+               <label for="account">Cuenta:</label>
+               <input type="number" name="cuenta" id="account" placeholder="XXXXXXXXXX" maxlength="10">(diez dígitos)
+
            </fieldset>
-           <fieldset class="statistical-data">
+           <fieldset>
                <legend align="left">Datos estadísticos - ¿Cómo nos conoció?</legend>
                <input type="checkbox" name="conocimiento" id="tv"> <label for="tv">A través de la TV</label> <br>
                <input type="checkbox" name="conocimiento" id="radio"> <label for="radio">A través de la radio</label> <br>
                <input type="checkbox" name="conocimiento" id="internet"> <label for="internet"> A través de la Internet</label> <br>
                <input type="checkbox" name="conocimiento" id="otros"> <label for="otros">Otros</label> <br>
                <input type="range" name="valoracion" id="valoracion" min="1" max="5"> <label for="valoracion">Valoración[1-5]</label> <br>
-               <label for="date">Fecha de la Encuesta:</label>
                <input type="date" name="fecha" id="date" value="2019-01-01">
            </fieldset>
            <button type="submit">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
-           <button type="button" class="show-btn" onclick="mostrarValoracion()">Mostrar <br> Valoración</button>
-           <button type="button" class="show-btn" onclick="mostrarCuenta()">Mostrar <br> Cuenta</button>
-           <button type="button" class="show-btn" onclick="mostrarDia()">Mostrar Día <br> Semana</button>
+           <button type="button" class="show-btn" onclick="mostrarValoracion()">Mostrar Valoración</button>
+           <button type="button" class="show-btn" onclick="mostrarCuenta()">Mostrar Cuenta</button>
+           <button type="button" class="show-btn" onclick="mostrarDia()">Mostrar Día Semana</button>
        </form>
 
    </div>
