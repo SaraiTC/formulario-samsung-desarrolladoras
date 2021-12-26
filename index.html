@@ -23,6 +23,7 @@
                <label for="location">Provincia:</label>
                <input type="text" name="provincia" id="location">
            </fieldset>
+
            <fieldset>
                <legend align="left">Tipo de Contratación</legend>
                <input type="radio" name="contratacion" id="nueva-contratacion" class="motivo" checked> <label for="nueva-contratacion">Nueva Contratación</label> 
@@ -42,6 +43,7 @@
                    <option value="yoigo-p">Yoigo</option>
                </select>
            </fieldset>
+
            <fieldset>
                <legend align="left">Datos Bancarios</legend>
                <label for="country">País:</label>
@@ -58,6 +60,7 @@
                <input type="number" name="cuenta" id="account" placeholder="XXXXXXXXXX" maxlength="10">(diez dígitos)
 
            </fieldset>
+
            <fieldset>
                <legend align="left">Datos estadísticos - ¿Cómo nos conoció?</legend>
                <input type="checkbox" name="conocimiento" id="tv"> <label for="tv">A través de la TV</label> <br>
@@ -68,7 +71,8 @@
                <label for="date">Fecha de la encuesta:</label>
                <input type="date" name="fecha" id="date" value="2019-01-01">
            </fieldset>
-           <button type="button">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
+           
+           <button type="submit">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
            <button type="button" class="show-btn" onclick="alert('Tu valoración es de ' + document.getElementById('valoracion').value)">Mostrar Valoración</button>
            <button type="button" class="show-btn" onclick="mostrarCuenta();">Mostrar Cuenta</button>
            <button type="button" class="show-btn" onclick="mostrarDia();">Mostrar Día Semana</button>
