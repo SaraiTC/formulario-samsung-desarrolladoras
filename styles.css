@@ -64,7 +64,12 @@ legend {
 }
 
 /* Estilo de los botones */
-
+.bottom-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
 button {
   padding: 3px;
   margin: 2px;
@@ -77,3 +82,9 @@ button {
   border-radius: 5px;
   width: 100px;
 }
+
+#validacion {
+  display: inline-block;
+ 
+  
+} 

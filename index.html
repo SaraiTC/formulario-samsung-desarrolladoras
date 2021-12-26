@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <title>Formulario Alta Telefónica</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
     
 </head>
 <body>
    <h1 class="title">Formulario Información Alta Telefónica</h1> 
    <div class="container">
-       <form action="">
+       <form action="" id="myform">
            <fieldset>
                <legend align="left">Datos personales</legend>
                <label for="name">Nombre:</label>
@@ -20,7 +19,7 @@
                <label for="address">Dirección:</label>
                <input type="text" name="direccion" id="address" maxlength="60"><br>
                <label for="postcode">Código Postal:</label>
-               <input type="text" name="codigo-postal" id="postcode"><br>
+               <input type="text" name="codigo-postal" id="postcode" minlength="5" maxlength="5"><div id="validacion"></div><br>
                <label for="location">Provincia:</label>
                <input type="text" name="provincia" id="location">
            </fieldset>
@@ -69,13 +68,16 @@
                <label for="date">Fecha de la encuesta:</label>
                <input type="date" name="fecha" id="date" value="2019-01-01">
            </fieldset>
-           <button type="submit">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
+           <button type="button">Enviar Datos</button><button type="reset">Borrar Datos</button> <br>
            <button type="button" class="show-btn" onclick="alert('Tu valoración es de ' + document.getElementById('valoracion').value)">Mostrar Valoración</button>
            <button type="button" class="show-btn" onclick="mostrarCuenta();">Mostrar Cuenta</button>
            <button type="button" class="show-btn" onclick="mostrarDia();">Mostrar Día Semana</button>
+   
        </form>
+       
 
    </div>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
