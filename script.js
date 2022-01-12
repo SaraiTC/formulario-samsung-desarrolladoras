@@ -45,7 +45,7 @@ document
 function validarCodigoPostal() {
   var codigopostal = document.getElementById("postcode").value;
   var pro = document.getElementById("location").value;
-  var formulario = document.getElementsByTagName("form").value;
+  var formulario = document.getElementById("myform");
   var provincia = pro.toUpperCase();
   var provincias = [
     "ALAVA",
@@ -168,15 +168,523 @@ function validarCodigoPostal() {
     verde.setAttribute("id", "verde");
     document.getElementById("validacion").appendChild(verde);
     document.getElementById("verde").style.color = "#00e600";
-  } else {
+  } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[1] &&
+     provincia == provincias[1]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[2] &&
+     provincia == provincias[2]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+    } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[3] &&
+     provincia == provincias[3]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[4] &&
+     provincia == provincias[4]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[5] &&
+     provincia == provincias[5]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[6] &&
+     provincia == provincias[6]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[7] &&
+     provincia == provincias[7]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[8] &&
+     provincia == provincias[8]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[9] &&
+     provincia == provincias[9]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[10] &&
+     provincia == provincias[10]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[11] &&
+     provincia == provincias[11]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[12] &&
+     provincia == provincias[12]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[13] &&
+     provincia == provincias[13]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[14] &&
+     provincia == provincias[14]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[15] &&
+     provincia == provincias[15]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[16] &&
+     provincia == provincias[16]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[17] &&
+     provincia == provincias[17]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[18] &&
+     provincia == provincias[18]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[19] &&
+     provincia == provincias[19]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[20] &&
+     provincia == provincias[20]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[21] &&
+     provincia == provincias[21]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[22] &&
+     provincia == provincias[22]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[23] &&
+     provincia == provincias[23]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600"; 
+    } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[24] &&
+     provincia == provincias[24]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600"; 
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[25] &&
+     provincia == provincias[25]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[26] &&
+     provincia == provincias[26]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[27] &&
+     provincia == provincias[27]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[28] &&
+     provincia == provincias[28]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[29] &&
+     provincia == provincias[29]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[30] &&
+     provincia == provincias[30]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[31] &&
+     provincia == provincias[31]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[32] &&
+     provincia == provincias[32]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[33] &&
+     provincia == provincias[33]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[34] &&
+     provincia == provincias[34]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[35] &&
+     provincia == provincias[35]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[36] &&
+     provincia == provincias[36]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[37] &&
+     provincia == provincias[37]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[38] &&
+     provincia == provincias[38]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[39] &&
+     provincia == provincias[39]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[40] &&
+     provincia == provincias[40]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[41] &&
+     provincia == provincias[41]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[42] &&
+     provincia == provincias[42]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[43] &&
+     provincia == provincias[43]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[44] &&
+     provincia == provincias[44]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[45] &&
+     provincia == provincias[45]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[46] &&
+     provincia == provincias[46]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[47] &&
+     provincia == provincias[47]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[48] &&
+     provincia == provincias[48]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[49] &&
+     provincia == provincias[49]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[50] &&
+     provincia == provincias[50]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else if (
+     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
+       codigosPostales[51] &&
+     provincia == provincias[51]
+   ) {
+     verde = document.createElement("h3");
+     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.setAttribute("id", "verde");
+     document.getElementById("validacion").appendChild(verde);
+     document.getElementById("verde").style.color = "#00e600";
+   } else {
 		rojo = document.createElement("h3");
     rojo.textContent = codigopostal + "\n" + " no corresponde a " + provincia;
     rojo.setAttribute("id", "rojo");
     document.getElementById("validacion").appendChild(rojo);
     document.getElementById("rojo").style.color = "#ff0000";
-    				formulario.reset();	
-
-  }
-  
+   
  
 }
+} 
