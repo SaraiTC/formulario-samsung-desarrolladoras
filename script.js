@@ -42,9 +42,9 @@ function mostrarDia() {
 
 document
   .getElementById("location")
-  .addEventListener("focusout", validarCodigoPostal);
+  .addEventListener("focusout", validarCodigoPostalConProvincia);
 
-function validarCodigoPostal() {
+function validarCodigoPostalConProvincia() {
   var codigopostal = document.getElementById("postcode").value;
   var pro = document.getElementById("location").value;
   var provincia = pro.toUpperCase();
@@ -684,9 +684,94 @@ function validarCodigoPostal() {
     rojo.setAttribute("id", "rojo");
     document.getElementById("validacion").appendChild(rojo);
     document.getElementById("rojo").style.color = "#ff0000";
-   
- 
 }
 } 
 
+  // VALIDACION DEL CAMPO CÓDIGO POSTAL
+  
+document
+  .getElementById("postcode")
+  .addEventListener("focusout", validarCodigoPostal);
 
+
+function validarCodigoPostal(){
+  var codigopostal = document.getElementById("postcode").value;
+  var formulario = document.getElementById("myform");
+
+  if (codigopostal < 0 || codigopostal > 52999 || isNaN(codigopostal)) {
+    alert("Introduce un código postal correcto");
+    formulario.reset();
+  } else if ((codigopostal == "") | (codigopostal == " ")) {
+    alert("El campo código postal no puede quedar en blanco o con espacios");
+  } else if (codigopostal.length < 5) {
+    alert("El código postal debe tener 5 caracteres");
+  }
+  }
+
+
+  // VALIDACION DEL CAMPO PROVINCIA
+
+  function validarProvincia() {
+    var pro = document.getElementById("location").value;
+    var provincia = pro.toUpperCase();
+    var provincias = [
+      "ALAVA",
+      "ALBACETE",
+      "ALICANTE",
+      "ALMERIA",
+      "AVILA",
+      "BADAJOZ",
+      "ISLAS BALEARES",
+      "BARCELONA",
+      "BURGOS",
+      "CACERES",
+      "CADIZ",
+      "CASTELLON",
+      "CIUDAD REAL",
+      "CORDOBA",
+      "LA CORUNHA",
+      "CUENCA",
+      "GERONA",
+      "GRANADA",
+      "GUADALAJARA",
+      "GUIPUZCOA",
+      "HUELVA",
+      "HUESCA",
+      "JAEN",
+      "LEON",
+      "LERIDA",
+      "LA RIOJA",
+      "LUGO",
+      "MADRID",
+      "MALAGA",
+      "MURCIA",
+      "NAVARRA",
+      "ORENSE",
+      "ASTURIAS",
+      "PALENCIA",
+      "LAS PALMAS",
+      "PONTEVEDRA",
+      "SALAMANCA",
+      "SANTA CRUZ DE TENERIFE",
+      "CANTABRIA",
+      "SEGOVIA",
+      "SEVILLA",
+      "SORIA",
+      "TARRAGONA",
+      "TERUEL",
+      "TOLEDO",
+      "VALENCIA",
+      "VALLADOLID",
+      "VIZCAYA",
+      "ZAMORA",
+      "ZARAGOZA",
+      "CEUTA",
+      "MELILLA",
+    ];
+
+    if (provincias.indexOf(provincia) < 0) {
+      alert("Introduce una provincia válida, por favor.");
+    }
+  }
+
+  
