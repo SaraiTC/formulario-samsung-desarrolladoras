@@ -17,7 +17,4 @@ Las directrices para la realización del ejercicio estaban predefinidas en el en
 - Validar que en el campo "código postal" realmente se han introducido cinco números, que no hay letras y que no está vacío.
 
 
-## Resultado:
-
-![]()
 
