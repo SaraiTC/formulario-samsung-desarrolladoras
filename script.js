@@ -164,7 +164,7 @@ function validarCodigoPostalConProvincia() {
     provincia == provincias[0]
   ) {
     verde = document.createElement("h3");
-    verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+    verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
     verde.setAttribute("id", "verde");
     document.getElementById("validacion").appendChild(verde);
     document.getElementById("verde").style.color = "#00e600";
@@ -174,7 +174,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[1]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -184,7 +184,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[2]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -194,7 +194,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[3]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -204,7 +204,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[4]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -214,7 +214,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[5]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -224,7 +224,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[6]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -234,7 +234,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[7]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -244,7 +244,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[8]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -254,7 +254,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[9]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -264,7 +264,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[10]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -274,7 +274,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[11]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -284,7 +284,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[12]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -294,7 +294,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[13]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -304,7 +304,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[14]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -314,7 +314,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[15]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -324,7 +324,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[16]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -334,7 +334,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[17]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -344,7 +344,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[18]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -354,7 +354,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[19]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -364,7 +364,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[20]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -374,7 +374,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[21]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -384,7 +384,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[22]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -394,7 +394,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[23]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600"; 
@@ -404,7 +404,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[24]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600"; 
@@ -414,7 +414,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[25]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -424,7 +424,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[26]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -434,7 +434,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[27]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -444,7 +444,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[28]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -454,7 +454,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[29]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -464,7 +464,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[30]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -474,7 +474,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[31]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -484,7 +484,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[32]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -494,7 +494,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[33]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -504,7 +504,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[34]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -514,7 +514,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[35]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -524,7 +524,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[36]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -534,7 +534,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[37]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -544,7 +544,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[38]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -554,7 +554,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[39]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -564,7 +564,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[40]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -574,7 +574,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[41]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -584,7 +584,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[42]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -594,7 +594,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[43]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -604,7 +604,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[44]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -614,7 +614,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[45]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -624,7 +624,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[46]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -634,7 +634,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[47]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -644,7 +644,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[48]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -654,7 +654,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[49]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -664,7 +664,7 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[50]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
@@ -674,13 +674,13 @@ function validarCodigoPostalConProvincia() {
      provincia == provincias[51]
    ) {
      verde = document.createElement("h3");
-     verde.textContent = codigopostal + "\n" + " corresponde a " + provincia;
+     verde.textContent = codigopostal + "\n" + "  CORRESPONDE A " + provincia;
      verde.setAttribute("id", "verde");
      document.getElementById("validacion").appendChild(verde);
      document.getElementById("verde").style.color = "#00e600";
    } else {
 		rojo = document.createElement("h3");
-    rojo.textContent = codigopostal + "\n" + " no corresponde a " + provincia;
+    rojo.textContent = codigopostal + "\n" + " no  CORRESPONDE A " + provincia;
     rojo.setAttribute("id", "rojo");
     document.getElementById("validacion").appendChild(rojo);
     document.getElementById("rojo").style.color = "#ff0000";

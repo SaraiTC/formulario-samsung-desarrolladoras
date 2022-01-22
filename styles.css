@@ -70,6 +70,7 @@ legend {
   flex-wrap: wrap;
   justify-content: space-between;
 } 
+
 button {
   padding: 3px;
   margin: 2px;
@@ -83,6 +84,11 @@ button {
   width: 100px;
 }
 
+/* Estilo de la validacion del código postal y la provincia */
+
 #validacion {
   display: inline-block;
+  margin-left: 90px;
+  font-size: medium;
+  font-family:cursive;
 } 
