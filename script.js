@@ -1,4 +1,4 @@
-// Funcionalidad del monton Mostrar Cuenta
+// Funcionalidad del botón Mostrar Cuenta
 
 function mostrarCuenta() {
   var iban = document.getElementById("iban").value;
@@ -22,7 +22,7 @@ function mostrarCuenta() {
   );
 }
 
-// Funcionalidad del monton Mostrar Día Semana
+// Funcionalidad del botón Mostrar Día Semana
 
 function mostrarDia() {
   var dia = document.getElementById("date");
