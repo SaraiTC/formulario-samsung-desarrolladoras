@@ -685,7 +685,7 @@ function validarCodigoPostalConProvincia() {
      document.getElementById("verde").style.color = "#00e600";
    } else {
 		rojo = document.createElement("h3");
-    rojo.textContent = codigopostal + "\n" + " no  CORRESPONDE A " + provincia;
+    rojo.textContent = codigopostal + "\n" + "  NO  CORRESPONDE A " + provincia;
     rojo.setAttribute("id", "rojo");
     document.getElementById("validacion").appendChild(rojo);
     document.getElementById("rojo").style.color = "#ff0000";
@@ -707,7 +707,7 @@ function validarCodigoPostal(){
     alert("Introduce un código postal correcto");
     formulario.reset();
   } else if ((codigopostal == "") | (codigopostal == " ")) {
-    alert("El campo código postal no puede quedar en blanco o con espacios");
+    alert("El campo código postal  NO puede quedar en blanco o con espacios");
     formulario.reset();
   } else if (codigopostal.length < 5) {
     alert("El código postal debe tener 5 caracteres");
