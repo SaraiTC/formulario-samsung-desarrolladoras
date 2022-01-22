@@ -717,6 +717,9 @@ function validarCodigoPostal(){
 
 
   // Validación del campo de provincia
+document
+  .getElementById("location")
+  .addEventListener("change", validarProvincia);
 
   function validarProvincia() {
     var pro = document.getElementById("location").value;
@@ -779,7 +782,7 @@ function validarCodigoPostal(){
 
     if (provincias.indexOf(provincia) < 0) {
       alert("Introduce una provincia válida, por favor.");
-      formulario.reset();
+      window.location.reload(true);
     }
   }
 
