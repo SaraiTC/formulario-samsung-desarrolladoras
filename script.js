@@ -38,6 +38,8 @@ function mostrarDia() {
   alert("La fecha seleccionada en el elemento de fecha es un " + dias[n]);
 }
 
+// VALIDACIÓN DE CÓDIGO POSTAL Y PROVINCIA
+
 document
   .getElementById("location")
   .addEventListener("focusout", validarCodigoPostal);
@@ -45,7 +47,6 @@ document
 function validarCodigoPostal() {
   var codigopostal = document.getElementById("postcode").value;
   var pro = document.getElementById("location").value;
-  var formulario = document.getElementById("myform");
   var provincia = pro.toUpperCase();
   var provincias = [
     "ALAVA",
@@ -157,8 +158,7 @@ function validarCodigoPostal() {
   ];
 
   
-  if (
-    
+  if ( 
     codigopostal[parseInt(codigopostal.substring(0, 2))] ==
       codigosPostales[0] &&
     provincia == provincias[0]
@@ -688,3 +688,5 @@ function validarCodigoPostal() {
  
 }
 } 
+
+
