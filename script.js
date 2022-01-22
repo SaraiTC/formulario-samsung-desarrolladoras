@@ -1,4 +1,4 @@
-// Funciones de los botones de Mostrar contenidos
+// Funcionalidad del monton Mostrar Cuenta
 
 function mostrarCuenta() {
   var iban = document.getElementById("iban").value;
@@ -22,6 +22,8 @@ function mostrarCuenta() {
   );
 }
 
+// Funcionalidad del monton Mostrar Día Semana
+
 function mostrarDia() {
   var dia = document.getElementById("date");
   var dia = new Date();
@@ -38,11 +40,14 @@ function mostrarDia() {
   alert("La fecha seleccionada en el elemento de fecha es un " + dias[n]);
 }
 
-// VALIDACIÓN DE CÓDIGO POSTAL Y PROVINCIA
+// Validación del código postal con la provincia
 
 document
   .getElementById("location")
   .addEventListener("focusout", validarCodigoPostalConProvincia);
+
+// La validación se disparará cuando el usuario pase de campo desde el de provincia
+
 
 function validarCodigoPostalConProvincia() {
   var codigopostal = document.getElementById("postcode").value;
@@ -687,7 +692,7 @@ function validarCodigoPostalConProvincia() {
 }
 } 
 
-  // VALIDACION DEL CAMPO CÓDIGO POSTAL
+  // Validación del campo de código postal
   
 document
   .getElementById("postcode")
@@ -711,7 +716,7 @@ function validarCodigoPostal(){
   }
 
 
-  // VALIDACION DEL CAMPO PROVINCIA
+  // Validación del campo de provincia
 
   function validarProvincia() {
     var pro = document.getElementById("location").value;
